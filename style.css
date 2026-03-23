@@ -55,6 +55,11 @@ header img {
 
 /*   NAVIGATION */
 nav {
+    position: fixed;
+    top:0;   
+     left:0;
+    width:100%;
+    z-index:1000;
     background-color: var(--secondary-color);
     text-align: center;
     padding: 1rem 0;
